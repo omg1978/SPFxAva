@@ -1,8 +1,8 @@
 #############################################################################
 # Dev Build Script
 # - Create "ava-properties" WebPart (SPFx) sample
-# - https://dev.office.com/sharepoint/docs/spfx/web-parts/get-started/build-a-hello-world-web-part
-# - https://dev.office.com/sharepoint/docs/spfx/web-parts/get-started/connect-to-sharepoint
+# - Source: https://dev.office.com/sharepoint/docs/spfx/web-parts/get-started/build-a-hello-world-web-part
+# - Repo: https://github.com/omg1978/SPFxAva
 # - 03/2017 Oscar Martin
 #############################################################################
 
