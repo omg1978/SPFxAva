@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeList/AvanadeListWebPart.js",
+      "manifest": "./src/webparts/avanadeList/AvanadeListWebPart.manifest.json",
+      "outputPath": "./dist/avanade-list.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadeListStrings": "webparts/avanadeList/loc/{locale}.js"
+  }
+}

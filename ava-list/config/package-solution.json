@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-list-client-side-solution",
+    "id": "19a4f577-e60f-4a0b-b512-028dfcff9727",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-list.sppkg"
+  }
+}
