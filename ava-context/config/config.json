@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeContext/AvanadeContextWebPart.js",
+      "manifest": "./src/webparts/avanadeContext/AvanadeContextWebPart.manifest.json",
+      "outputPath": "./dist/avanade-context.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadeContextStrings": "webparts/avanadeContext/loc/{locale}.js"
+  }
+}

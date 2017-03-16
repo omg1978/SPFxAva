@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ava-context",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "c5db8d90-c903-4e0c-806c-e19090859742"
+  }
+}

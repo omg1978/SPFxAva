@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "23248559-93b4-4ff6-9a6e-8e670641b4b2",
+  "alias": "AvanadeContextWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "23248559-93b4-4ff6-9a6e-8e670641b4b2",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Avanade Context" },
+    "description": { "default": "Context demo" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Avanade Context"
+    }
+  }]
+}

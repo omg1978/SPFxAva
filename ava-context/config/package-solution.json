@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-context-client-side-solution",
+    "id": "c5db8d90-c903-4e0c-806c-e19090859742",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-context.sppkg"
+  }
+}
