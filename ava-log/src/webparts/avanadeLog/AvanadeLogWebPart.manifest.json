@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "d1dfe159-e310-4251-a947-65b361576c10",
+  "alias": "AvanadeLogWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "d1dfe159-e310-4251-a947-65b361576c10",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Avanade Log" },
+    "description": { "default": "Log demo" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Avanade Log"
+    }
+  }]
+}

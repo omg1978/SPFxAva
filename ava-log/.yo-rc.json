@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ava-log",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "9a5f8d18-1f58-4384-aa35-ee2197d0bee2"
+  }
+}

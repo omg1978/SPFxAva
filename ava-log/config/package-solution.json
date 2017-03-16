@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-log-client-side-solution",
+    "id": "9a5f8d18-1f58-4384-aa35-ee2197d0bee2",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-log.sppkg"
+  }
+}
