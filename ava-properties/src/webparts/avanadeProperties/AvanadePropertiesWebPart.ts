@@ -50,18 +50,19 @@ export default class AvanadePropertiesWebPart extends BaseClientSideWebPart<IAva
               groupName: strings.BasicGroupName,
               groupFields: [
                 PropertyPaneTextField('description', {
-                  label: 'Description'
+                  label: 'Webpart Description'
                 }),
+                //OMG - add new property
+                PropertyPaneTextField('test', {
+                  label: 'Multi-line Text Field',
+                  multiline: true
+                })
               ]
             },
             //OMG - add new group and properties
             {
               groupName: "Group 2",
               groupFields: [
-                PropertyPaneTextField('test', {
-                  label: 'Multi-line Text Field',
-                  multiline: true
-                }),
                 PropertyPaneCheckbox('test1', {
                   text: 'Checkbox'
                 }),

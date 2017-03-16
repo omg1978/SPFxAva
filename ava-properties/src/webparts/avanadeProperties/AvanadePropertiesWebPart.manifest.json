@@ -14,9 +14,9 @@
     "description": { "default": "Properties demo" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "Avanade Properties",
-      //OMG - add default values for new  properties
-      "test": "Avanade Multi-line text field",
+      "description": "Avanade Properties II",
+      
+      "test": "Avanade Multi-line",
       "test1": true,
       "test2": "2",
       "test3": true
