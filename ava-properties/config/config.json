@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeProperties/AvanadePropertiesWebPart.js",
+      "manifest": "./src/webparts/avanadeProperties/AvanadePropertiesWebPart.manifest.json",
+      "outputPath": "./dist/avanade-properties.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadePropertiesStrings": "webparts/avanadeProperties/loc/{locale}.js"
+  }
+}

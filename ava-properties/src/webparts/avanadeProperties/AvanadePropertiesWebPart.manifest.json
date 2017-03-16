@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "8e90cf24-3703-4d2f-a2d8-9753cb789d5a",
+  "alias": "AvanadePropertiesWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "8e90cf24-3703-4d2f-a2d8-9753cb789d5a",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Avanade Properties" },
+    "description": { "default": "Properties demo" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Avanade Properties"
+    }
+  }]
+}

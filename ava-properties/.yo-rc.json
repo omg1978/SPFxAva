@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ava-properties",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "2445b4ae-8992-4aac-99fd-056c3412e96a"
+  }
+}

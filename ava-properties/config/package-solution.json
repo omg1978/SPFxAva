@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-properties-client-side-solution",
+    "id": "2445b4ae-8992-4aac-99fd-056c3412e96a",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-properties.sppkg"
+  }
+}
