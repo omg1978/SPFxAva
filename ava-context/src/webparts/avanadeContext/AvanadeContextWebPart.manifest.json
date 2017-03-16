@@ -14,7 +14,7 @@
     "description": { "default": "Context demo" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "Avanade Context"
+      "description": "Avanade Context (from manifest.json)"
     }
   }]
 }
