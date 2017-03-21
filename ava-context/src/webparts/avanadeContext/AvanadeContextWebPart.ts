@@ -16,7 +16,7 @@ import MockHttpClient from './MockHttpClient';
 //OMG - class that implement API REST to call sharepoint lists
 import {
   SPHttpClient,
-  SPHttpClientRespon
+  SPHttpClientResponse   
 } from '@microsoft/sp-http';
 
 //OMG - EnvironmentType module, indentify what environment are you using (Workbench or SharePoint)
