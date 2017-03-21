@@ -22,7 +22,7 @@ gulp serve
 
 ### Deploy the WebPart to SharePoint Online - write-manifests.json
 
-1) Fill "cdnBasePath" parameter whith the document library Site as CDN
+1) Fill "cdnBasePath" parameter whith the document library Site as CDN (create the document library if needed).Use the url of your Tenant
 
 ```bash
 {
@@ -30,14 +30,18 @@ gulp serve
 }
 ```
 
-2) Generate the files to deploy in the SharePoint Library (\ava-debug\temp\deploy\)
+2) Generate the files to deploy in the SharePoint Library (\ava-context\temp\deploy\)
 
 ```bash
 gulp bundle --ship
 ```
 
-3) Create a .spapp file for this webpart to upload in App Catalog (\ava-debug\sharepoint\solution\)
+3) Create a .spapp file for this webpart to upload in App Catalog (\ava-context\sharepoint\solution\)
 
 ```bash
 gulp package-solution --ship
 ```
+
+### Get SharePoint lists & libraries (local and SharePoint) using mocks
+
+...
