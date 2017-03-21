@@ -1,6 +1,6 @@
 ## ava-context
 
-This is where you include your WebPart documentation.
+Demo retrieve context information and deploy in SharePoint Online from an SPFx WebPart.
 
 ### Building the code
 
