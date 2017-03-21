@@ -33,28 +33,3 @@ gulp package-solution --ship
 cd c:\SPFx\ava-properties\sharepoint\solution
 explorer .
 #############################################################################
-
-
-#############################################################################
-# Debug
-# https://www.eliostruyf.com/how-to-debug-your-sharepoint-framework-web-part/
-#############################################################################
-
-# Option 1:
-debugger;
-#############################################################################
-
-# Option 2:
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
-{
-	"name": "Launch localhost with sourcemaps",
-	"type": "chrome",
-	"request": "launch",
-	"url": "https://localhost:4321/temp/workbench.html",
-	"webRoot": "${workspaceRoot}",
-	"sourceMaps": true,
-	"sourceMapPathOverrides": {
-		"webpack:///../../../../*": "${webRoot}/*"
-	}
-}
-#############################################################################
