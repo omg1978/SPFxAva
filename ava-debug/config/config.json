@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeDebug/AvanadeDebugWebPart.js",
+      "manifest": "./src/webparts/avanadeDebug/AvanadeDebugWebPart.manifest.json",
+      "outputPath": "./dist/avanade-debug.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadeDebugStrings": "webparts/avanadeDebug/loc/{locale}.js"
+  }
+}

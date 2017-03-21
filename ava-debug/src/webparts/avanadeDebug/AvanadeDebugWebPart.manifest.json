@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "3a63a89a-f563-427b-b2e7-ce5df0e21b2f",
+  "alias": "AvanadeDebugWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "3a63a89a-f563-427b-b2e7-ce5df0e21b2f",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Avanade Debug" },
+    "description": { "default": "Debug Demo" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Avanade Debug"
+    }
+  }]
+}

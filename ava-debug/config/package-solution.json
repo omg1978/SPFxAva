@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-debug-client-side-solution",
+    "id": "3555c633-1695-4a76-af79-d16ab36fdec8",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-debug.sppkg"
+  }
+}

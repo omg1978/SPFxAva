@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ava-debug",
+    "framework": "none",
+    "version": "1.0.0",
+    "libraryId": "3555c633-1695-4a76-af79-d16ab36fdec8"
+  }
+}
