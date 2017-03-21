@@ -29,6 +29,7 @@ gulp package-solution - TODO
 
 1) Import new control types from properties
 
+```bash
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
@@ -38,9 +39,11 @@ import {
   PropertyPaneDropdown,
   PropertyPaneToggle
 } from '@microsoft/sp-webpart-base';
+```
 
 2) Add a new property in the existing group
 
+```bash
 groups: [
   {
     groupName: strings.BasicGroupName,
@@ -55,9 +58,11 @@ groups: [
       })
     ]
   }
+```
 
 3) Add a new group with properties
 
+```bash
 //OMG - add new group and properties
 {
   groupName: "Group 2",
@@ -81,11 +86,12 @@ groups: [
     })
   ]
 }
-
+```
 ### Add properties - IAvanadePropertiesWebPartProps.ts
 
 1) New properties and their types
 
+```bash
 export interface IAvanadePropertiesWebPartProps {
   description: string;
   //OMG - add new properties
@@ -94,11 +100,12 @@ export interface IAvanadePropertiesWebPartProps {
   test2: string;
   test3: boolean;
 }
-
+```
 ### Add properties - AvanadePropertiesWebPart.manifest.json
 
 1) Add default properties values
 
+```bash
 "properties": {
   "description": "Avanade Properties II",
       
@@ -107,3 +114,4 @@ export interface IAvanadePropertiesWebPartProps {
   "test2": "2",
   "test3": true
 }
+```
