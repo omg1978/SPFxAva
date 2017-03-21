@@ -11,7 +11,7 @@ npm i -g gulp
 gulp serve
 ```
 
-### Define the new property of interface - AvanadeReactWebPart.ts
+### Add the property and type - AvanadeReactWebPart.ts
 
 1) Define the new property "url" of interface
 
@@ -54,7 +54,7 @@ public render(): React.ReactElement<IAvanadeReactProps> {
 }
 ```
 
-### Add the property and type - IAvanadeReactProps.ts
+### Define the new property of interface - IAvanadeReactProps.ts
 
 1) Add the property and type in the interface
 
