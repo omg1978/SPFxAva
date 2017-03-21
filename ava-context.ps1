@@ -18,6 +18,8 @@ cd ava-context
 yo @microsoft/sharepoint
 #############################################################################
 
+# Install the developer certificate for use with SPFx development (only the first time)
+gulp trust-dev-cert
 # Ejecute on workbench
 gulp serve
 #gulp serve --verbose
@@ -27,34 +29,10 @@ gulp serve
 gulp bundle --ship
 cd c:\SPFx\SPFx\ava-context\temp\deploy
 explorer .
-# TODO: Edit CDN url on project (C:\SPFx\ava-context\config\write-manifests.json)
+# TODO: Edit CDN url on project (\ava-context\config\write-manifests.json)
 # Create a .spapp file for this webpart to upload in App Catalog
 gulp package-solution --ship
 cd c:\SPFx\ava-context\sharepoint\solution
 explorer .
 #############################################################################
 
-
-#############################################################################
-# Debug
-# https://www.eliostruyf.com/how-to-debug-your-sharepoint-framework-web-part/
-#############################################################################
-
-# Option 1:
-debugger;
-#############################################################################
-
-# Option 2:
-"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
-{
-	"name": "Launch localhost with sourcemaps",
-	"type": "chrome",
-	"request": "launch",
-	"url": "https://localhost:4321/temp/workbench.html",
-	"webRoot": "${workspaceRoot}",
-	"sourceMaps": true,
-	"sourceMapPathOverrides": {
-		"webpack:///../../../../*": "${webRoot}/*"
-	}
-}
-#############################################################################
