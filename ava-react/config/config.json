@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeReact/AvanadeReactWebPart.js",
+      "manifest": "./src/webparts/avanadeReact/AvanadeReactWebPart.manifest.json",
+      "outputPath": "./dist/avanade-react.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadeReactStrings": "webparts/avanadeReact/loc/{locale}.js"
+  }
+}

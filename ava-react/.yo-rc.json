@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "ava-react",
+    "framework": "react",
+    "version": "1.0.0",
+    "libraryId": "cf5aa466-c8dd-4d7c-8730-60667e14e1ec"
+  }
+}
