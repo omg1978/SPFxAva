@@ -10,9 +10,11 @@ export default class AvanadeReact extends React.Component<IAvanadeReactProps, vo
         <div className={styles.container}>
           <div className={`ms-Grid-row ms-bgColor-themeDark ms-fontColor-white ${styles.row}`}>
             <div className="ms-Grid-col ms-u-lg10 ms-u-xl8 ms-u-xlPush2 ms-u-lgPush1">
-              <span className="ms-font-xl ms-fontColor-white">Welcome to SharePoint!</span>
-              <p className="ms-font-l ms-fontColor-white">Customize SharePoint experiences using Web Parts.</p>
+              <span className="ms-font-xl ms-fontColor-white">Welcome to Avanade WebCast!</span>
+              <p className="ms-font-l ms-fontColor-white">Using React framework..</p>
               <p className="ms-font-l ms-fontColor-white">{escape(this.props.description)}</p>
+              {/* New property to show url */}
+              <p className="ms-font-l ms-fontColor-white">{escape(this.props.url)}</p>
               <a href="https://aka.ms/spfx" className={styles.button}>
                 <span className={styles.label}>Learn more</span>
               </a>

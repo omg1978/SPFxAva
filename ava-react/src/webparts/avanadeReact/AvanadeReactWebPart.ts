@@ -18,7 +18,9 @@ export default class AvanadeReactWebPart extends BaseClientSideWebPart<IAvanadeR
     const element: React.ReactElement<IAvanadeReactProps > = React.createElement(
       AvanadeReact,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        //define the new propery
+        url: this.context.pageContext.site.absoluteUrl
       }
     );
 
