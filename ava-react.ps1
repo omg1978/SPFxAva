@@ -26,12 +26,12 @@ gulp serve
 
 # Generate the files to deploy in the SharePoint Library
 gulp bundle --ship
-cd c:\SPFx\SPFx\ava-react\temp\deploy
+cd C:\SPFx\SPFxAva\ava-react\temp\deploy
 explorer .
 # TODO: Edit CDN url on project (\ava-react\config\write-manifests.json)
 # Create a .spapp file for this webpart to upload in App Catalog
 gulp package-solution --ship
-cd c:\SPFx\ava-react\sharepoint\solution
+cd c:\SPFx\SPFxAva\ava-react\sharepoint\solution
 explorer .
 #############################################################################
 
