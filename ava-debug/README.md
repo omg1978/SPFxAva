@@ -1,6 +1,6 @@
 ## ava-debug
 
-This is where you include your WebPart documentation.
+Demonstration of debugging in a SPFx WebPart
 
 ### Building the code
 
@@ -8,19 +8,39 @@ This is where you include your WebPart documentation.
 git clone the repo
 npm i
 npm i -g gulp
-gulp
+gulp serve
 ```
 
-This package produces the following:
+### Debug using browser - AvanadeDebugWebPart.ts
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+1) Debug using browser. Add the "debugger;" statement where you want the Web Browser debug to stop
 
-### Build options
+```bash
+debugger;
+```
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+### Debug using Visual Studio Code and Chrome -  
+
+1) Install "Debugger for Chrome" extension, in Visual Studio Code
+
+2) Open Chrome with this options: 
+
+```bash
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+```
+
+3) Add debug configuration:
+
+```bash
+{
+	"name": "Launch localhost with sourcemaps",
+	"type": "chrome",
+	"request": "launch",
+	"url": "https://localhost:4321/temp/workbench.html",
+	"webRoot": "${workspaceRoot}",
+	"sourceMaps": true,
+	"sourceMapPathOverrides": {
+		"webpack:///../../../../*": "${webRoot}/*"
+	}
+}
+```
