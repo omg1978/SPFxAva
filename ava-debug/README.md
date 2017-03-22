@@ -23,13 +23,13 @@ debugger;
 
 1) Install "Debugger for Chrome" extension, in Visual Studio Code
 
-2) Open Chrome with this options: 
+2) Run the Chrome app, with the necessary parameters to enable the debug options:
 
 ```bash
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
 ```
 
-3) Add debug configuration:
+3) Add new debug configuration in Visual Studio Code (only for Chrome browser):
 
 ```bash
 {
