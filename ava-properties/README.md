@@ -11,23 +11,9 @@ npm i -g gulp
 gulp
 ```
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
-
 ### Add properties - AvanadePropertiesWebPart.ts
 
-1) Import new control types from properties
+1) Import new control types from properties (Checkbox, Dropdown and Toggle)
 
 ```bash
 import {
@@ -41,7 +27,7 @@ import {
 } from '@microsoft/sp-webpart-base';
 ```
 
-2) Add a new property in the existing group
+2) Add a new property "test" in the existing group
 
 ```bash
 groups: [
@@ -60,7 +46,7 @@ groups: [
   }
 ```
 
-3) Add a new group with properties
+3) Add a new group "Group 2" with properties (test1, test2 and test3)
 
 ```bash
 //OMG - add new group and properties
@@ -89,7 +75,7 @@ groups: [
 ```
 ### Add properties - IAvanadePropertiesWebPartProps.ts
 
-1) New properties and their types
+1) New properties (test, test1, test2 and test3) and their types
 
 ```bash
 export interface IAvanadePropertiesWebPartProps {
@@ -103,7 +89,7 @@ export interface IAvanadePropertiesWebPartProps {
 ```
 ### Add properties - AvanadePropertiesWebPart.manifest.json
 
-1) Add default properties values
+1) Add default values for new properties (test, test1, test2 and test3)
 
 ```bash
 "properties": {
