@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+  "id": "ab8a6a3c-073d-48aa-a9e8-dd19d27cb84f",
+  "alias": "AvanadeWebcastWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "preconfiguredEntries": [
+    {
+      "groupId": "ab8a6a3c-073d-48aa-a9e8-dd19d27cb84f",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "Avanade Webcast"
+      },
+      "description": {
+        "default": "Webcast Demo"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Avanade Webcast",
+        "test": "Avanade Multi-line",
+        "test1": true,
+        "test2": "2",
+        "test3": true
+      }
+    }
+  ]
+}

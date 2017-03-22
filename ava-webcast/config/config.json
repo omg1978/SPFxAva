@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/avanadeWebcast/AvanadeWebcastWebPart.js",
+      "manifest": "./src/webparts/avanadeWebcast/AvanadeWebcastWebPart.manifest.json",
+      "outputPath": "./dist/avanade-webcast.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "avanadeWebcastStrings": "webparts/avanadeWebcast/loc/{locale}.js"
+  }
+}

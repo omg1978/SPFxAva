@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "ava-webcast-client-side-solution",
+    "id": "0cfa9596-e2a4-458e-a30f-75b4a62babf8",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/ava-webcast.sppkg"
+  }
+}
